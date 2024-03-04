@@ -1,13 +1,16 @@
+import React from "react";
+import logo from "/images/logo.png";
+
 function SideBar() {
     return (
         <ul className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
 
 			{/* <!-- Sidebar - Brand --> */}
-			<a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
-				<div className="sidebar-brand-icon">
-					<img className="w-100" src="/images/toldo.png" alt="Toldo"/>
-				</div>
-			</a>
+			
+			<header>
+				<img src={logo} alt="Logo" style={{ width: '80px', marginTop: '20px', marginLeft:'10px' }} />
+			</header>
+      		
 
 			{/* <!-- Divider --> */}
 			<hr className="sidebar-divider my-0" />
