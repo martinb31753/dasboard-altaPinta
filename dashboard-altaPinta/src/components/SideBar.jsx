@@ -8,7 +8,7 @@ function SideBar() {
 			{/* <!-- Sidebar - Brand --> */}
 			
 			<header>
-				<img src={logo} alt="Logo" style={{ width: '80px', marginTop: '20px', marginLeft:'10px' }} />
+				<img src={logo} alt="Logo" style={{ width: '80px', marginTop: '20px', marginLeft:'20px' }} />
 			</header>
       		
 
