@@ -22,7 +22,7 @@ function ContentRowTop() {
                         <div className="card-body">
 
                             <img className="w-100" src="/images/zanahorias-confi.jpg" alt="Toldo" style={{ maxWidth: '200px' }} />
-                            <p>"Cuidadosamente cocinadas hasta lograr un caramelizado dorado, estas zanahorias ofrecen un sabor indulgente y una textura tierna"</p>
+                            <p>Cuidadosamente cocinadas hasta lograr un caramelizado dorado, estas zanahorias ofrecen un sabor indulgente y una textura tierna</p>
                             <a className="btn btn-danger" target="_blank" rel="nofollow" href="/">Ver más detalle</a>
                         </div>
                     </div>
