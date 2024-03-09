@@ -1,6 +1,6 @@
-
-import {Link} from 'react-router-dom';
+import React from "react";
 import logo from "/images/logo.png";
+import { Link } from "react-router-dom";
 
 function SideBar() {
     return (
@@ -9,11 +9,9 @@ function SideBar() {
 			{/* <!-- Sidebar - Brand --> */}
 			
 			<header>
-				<Link className="logo" to={"/"}>
-				<img className="logoAltaPinta"src={logo} alt="Logo" style={{ width: '80px', marginTop: '20px', marginLeft:'20px' }} />
-				</Link>
+				<img src={logo} alt="Logo" style={{ width: '80px', marginTop: '20px', marginLeft:'10px' }} />
 			</header>
-	
+      		
 
 			{/* <!-- Divider --> */}
 			<hr className="sidebar-divider my-0" />
@@ -26,25 +24,24 @@ function SideBar() {
 			{/* <!-- Heading --> */}
 			<div className="sidebar-heading">Actions</div>
 
+			<li className="nav-item">
+				<Link className="nav-link" to="/">
+					<i className="fas fa-fw fa-home"></i>
+					<span>inicio</span></Link>
+			</li>
+
 			{/* <!-- Nav Item - Charts --> */}
 			<li className="nav-item">
-				<a className="nav-link" href="/userList">
-					<i className="fas fa-fw fa-chart-area"></i>
-					<span>User List</span></a>
+				<Link className="nav-link" to="/product">
+					<i className="fas fa-fw fa-table"></i>
+					<span>Productos</span></Link>
 			</li>
 
 			{/* <!-- Nav Item - Tables --> */}
 			<li className="nav-item">
-				<a className="nav-link" href="/productsList">
+				<Link className="nav-link" to="/user">
 					<i className="fas fa-fw fa-table"></i>
-					<span>Products List</span></a>
-			</li>
-
-			<li className='nav-item'>
-				<Link className="nav-link"to="/categories">
-					<i className='fas fa-fw fa-table'></i>
-				<span>Categories</span></Link>
-
+					<span>Usuarios</span></Link>
 			</li>
 
 			{/* <!-- Divider --> */}
