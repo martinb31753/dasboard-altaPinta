@@ -22,19 +22,19 @@ function SideBar() {
 			<hr className="sidebar-divider" />
 
 			{/* <!-- Heading --> */}
-			<div className="sidebar-heading">Actions</div>
+			<div className="sidebar-heading">Acciones</div>
 
 			<li className="nav-item">
 				<Link className="nav-link" to="/">
 					<i className="fas fa-fw fa-home"></i>
-					<span>inicio</span></Link>
+					<span>Inicio</span></Link>
 			</li>
 
 			{/* <!-- Nav Item - Charts --> */}
 			<li className="nav-item">
 				<Link className="nav-link" to="/product">
 					<i className="fas fa-fw fa-table"></i>
-					<span>Productos</span></Link>
+					<span>Ingredientes</span></Link>
 			</li>
 
 			{/* <!-- Nav Item - Tables --> */}
